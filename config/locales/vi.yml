@@ -1,0 +1,34 @@
+vi:
+  static_pages:
+    home:
+      home_title: Trang chủ
+      title: Ứng dụng mẫu
+      home_page: Đây là trang chủ
+      sample_app: ứng dụng mẫu.
+      rar: Hướng dẫn Ruby on Rails
+      help: Trợ giúp
+      about: Giới thiệu
+      contact: Liên hệ
+    help:
+      home_title: Trợ giúp
+      p1: Nhận trợ giúp hướng dẫn về Ruby on Rails tại trang
+      rar_help: Trợ giúp về Ruby on Rails
+      p2: Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
+      p3: Sách hướng dẫn về Ruby on Rails
+    about:
+      home_title: Giới thiệu
+      p1: ""
+      p2: một phần của nhóm hướng dẫn
+      p3: ", là một"
+      p4: cuốn sách
+      p5: và
+      p6: để dạy và phát triễn web với
+      p7: đây là ứng dụng mẫu cho hướng dẫn.
+    contact:
+      home_title: Liên hệ
+      p1: Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại trang
+      p2: liên hệ
+  english: Tiếng Anh
+  vietnam: Việt Nam
+  base_title: Hướng dẫn Ruby on Rails
+  back: trở về

@@ -1,0 +1,15 @@
+<% provide(:title, t(".home_title")) %>
+<h1><%= t ".title" %></h1>
+<p>
+  <%= link_to t("english"), locale: Settings.en %>
+  <%= link_to t("vietnam"), locale: Settings.vn %>
+  <%= t ".home_page" %>
+  <%= link_to t("base_title"), Settings.link_home %>
+  <%= t "base_title" %></a>
+  <%= t ".sample_app" %>
+  <p>
+    <%= link_to t(".help"), static_pages_help_url %>
+    <%= link_to t(".about"), static_pages_about_url %>
+    <%= link_to t(".contact"), static_pages_contact_url %>
+  </p>
+</p>

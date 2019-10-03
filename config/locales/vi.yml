@@ -31,6 +31,7 @@ vi:
     new:
       signup: Đăng ký
       p1: Đây sẽ là một trang đăng ký cho người dùng mới.
+      create: Tạo tài khoản
   layouts:
     header:
       sample_app: Ứng dụng mẫu
@@ -47,3 +48,10 @@ vi:
   contact: Liên hệ
   log_in: Đăng nhập
   new: Mới
+  activerecord:
+    attributes:
+      user:
+        name: Tên
+        email: Địa chỉ Email
+        password: Mật khẩu
+        confirmation: Xác nhận mật khẩu

@@ -1,11 +1,14 @@
 <% provide(:title, t(".home_title")) %>
-<h1><%= t ".home_title" %></h1>
-<p>
-  <%= link_to t("english"), locale: Settings.en %>
-  <%= link_to t("vietnam"), locale: Settings.vn %>
-  <%= t ".p1" %>
-  <%= link_to t(".p2"), Settings.link_contact %>
+<div class="center jumbotron">
+  <h1><%= t ".home_title" %></h1>
   <p>
-    <%= link_to t("back"), root_url %>
+    <%= link_to t("english"), locale: Settings.en %>
+    <%= link_to t("vietnam"), locale: Settings.vn %>
+    <%= t ".p1" %>
+    <%= link_to t(".p2"), Settings.link_contact %>
+    <p>
+      <%= link_to t("back"), root_url %>
+    </p>
   </p>
-</p>
+</div>
+<%= link_to image_tag("rails.png", alt: "Rails logo"), Settings.link_home %>

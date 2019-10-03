@@ -1,14 +1,11 @@
 en:
   static_pages:
     home:
-      home_title: Home
       title: Sample App
       home_page: This is the home page for the
       sample_app: sample application.
       rar: Ruby on Rails Tutorial
-      help: help
-      about: about
-      contact: contact
+      sun: Sign up now !
     help:
       home_title: Help
       p1: Get help on the Ruby on Rails Tutorial at the
@@ -24,11 +21,29 @@ en:
       p5: and
       p6: to teach web development with
       p7: This is the sample app for the tutorial.
+      learn_enough: Learn Enough
+      screenc: ScreenCast Series
     contact:
       home_title: Contact
       p1: Contact the Ruby on Rails Tutorial about the sample app at the
       p2: contact page
+  users:
+    new:
+      signup: Sign up
+      p1: This will be a signup page for new users.
+  layouts:
+    header:
+      sample_app: Sample App
+    footer:
+      p1: The
+      p2: by
   english: English
   vietnam: Vietnamese
   base_title: Ruby on Rails Tutorial
   back: back
+  home_title: Home
+  help: Help
+  about: About
+  contact: Contact
+  log_in: Log in
+  new: News

@@ -1,14 +1,11 @@
 vi:
   static_pages:
     home:
-      home_title: Trang chủ
       title: Ứng dụng mẫu
       home_page: Đây là trang chủ
       sample_app: ứng dụng mẫu.
       rar: Hướng dẫn Ruby on Rails
-      help: Trợ giúp
-      about: Giới thiệu
-      contact: Liên hệ
+      sun: Đăng ký ngay !
     help:
       home_title: Trợ giúp
       p1: Nhận trợ giúp hướng dẫn về Ruby on Rails tại trang
@@ -24,11 +21,29 @@ vi:
       p5: và
       p6: để dạy và phát triễn web với
       p7: đây là ứng dụng mẫu cho hướng dẫn.
+      learn_enough: Học đầy đủ
+      screenc: Loạt ScreenCast
     contact:
       home_title: Liên hệ
       p1: Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại trang
       p2: liên hệ
+  users:
+    new:
+      signup: Đăng ký
+      p1: Đây sẽ là một trang đăng ký cho người dùng mới.
+  layouts:
+    header:
+      sample_app: Ứng dụng mẫu
+    footer:
+      p1: ""
+      p2: bởi
   english: Tiếng Anh
   vietnam: Việt Nam
   base_title: Hướng dẫn Ruby on Rails
   back: trở về
+  home_title: Trang chủ
+  help: Trợ giúp
+  about: Giới thiệu
+  contact: Liên hệ
+  log_in: Đăng nhập
+  new: Mới

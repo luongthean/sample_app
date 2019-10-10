@@ -7,7 +7,7 @@ link_contact: "https://www.railstutorial.org/contact"
 link_learn: "https://www.learnenough.com/"
 link_new: "http://news.railstutorial.org/"
 MH: "http://www.michaelhartl.com/"
-val:
+max_length:
   name: 50
   email: 225
   password: 6

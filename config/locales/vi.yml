@@ -31,12 +31,17 @@ vi:
     new:
       signup: Đăng ký
       p1: Đây sẽ là một trang đăng ký cho người dùng mới.
+      create: Tạo tài khoản
   layouts:
     header:
       sample_app: Ứng dụng mẫu
     footer:
       p1: ""
       p2: bởi
+  shared:
+    error_messages:
+      p1: Biểu mẫu chứa
+      p2: lỗi
   english: Tiếng Anh
   vietnam: Việt Nam
   base_title: Hướng dẫn Ruby on Rails
@@ -47,3 +52,24 @@ vi:
   contact: Liên hệ
   log_in: Đăng nhập
   new: Mới
+  wellcome: Chào mừng bạn đến với trang ứng dụng mẫu !
+  warning: Không tìm thấy người dùng !
+  activerecord:
+    attributes:
+      user:
+        name: Tên
+        email: Địa chỉ Email
+        password: Mật khẩu
+        confirmation: Xác nhận mật khẩu
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: không được để trống
+            email:
+              blank: không được để trống
+              invalid: không đúng định dạng
+            password:
+              blank: không được để trống
+              too_short: quá ngắn (tối đa %{count} ký tự)
